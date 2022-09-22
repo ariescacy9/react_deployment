@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Install packages
+      - name: Install devDependencies
         run: npm i
       - name: Lint
-        run: npm run eslint
+        run: npm run lint
 
   test: # step para testear nuestra app react
     runs-on: ubuntu-latest
