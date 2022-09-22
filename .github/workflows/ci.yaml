@@ -16,7 +16,7 @@ jobs:
       - name: Install packages
         run: npm i
       - name: Lint
-        run: npm run lint
+        run: npm run eslint
 
   test: # step para testear nuestra app react
     runs-on: ubuntu-latest
